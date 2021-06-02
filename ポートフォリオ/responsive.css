@@ -1,0 +1,148 @@
+@media screen and (max-width: 1190px){
+  .home-tx{
+    padding: 330px 180px 200px 0;
+  }
+  .home h1{
+    font-size: 60px;
+    padding: 30px 40px;
+  }
+  .works-img img {
+    width: 100%;
+  }
+  .works-img p{
+    font-size: 20px;
+  }
+  .works-img span{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  header{
+    /* position: relative; */
+  }
+  .header-nav{
+    display: none;
+  }
+  .header-hide-nav {
+    display:inline-block;
+    margin: 10px 40px 0 0;
+    float: right;
+   }
+   .header-hide-nav p{
+     padding: 20px 30px;
+     background-color:  #3b4552cf;
+     color: white;
+     font-size: 20px;
+     margin-bottom: 0;
+     cursor: pointer;
+   }
+   .header-hide-nav ul{
+     display: block;
+     position: absolute;
+     right: 0;
+     background-color:  #3b4552cf;
+     width: 70%;
+     padding: 10px 10px;
+     margin: 20px 20px;
+     color: white;
+     display: none;
+   }
+   .header-hide-nav li{
+     list-style: none;
+     margin-bottom: 10px;
+     cursor: pointer;
+   }
+
+  .home-tx{
+    padding: 290px 20% 270px 0;
+  }
+  .home h1{
+    font-size: 40px;
+    padding: 30px 40px;
+  }
+  .about{
+    padding: 20px 0;
+  }
+  .about h1{
+    font-size: 35px;
+  }
+  .about h2{
+    font-size: 25px;
+  }
+  .about img{
+    border-radius: 50%;
+    margin-right: 0px;
+  }
+  .about-flex{
+    display: block;
+  }
+  .about p{
+    font-size: 15px;
+  }
+
+  .skill h1{
+    font-size: 35px;
+  }
+  .skill-flex{
+    display: block;
+    margin: 20px 0 10px 0;
+  }
+  .skill-flex img{
+    width: 40%;
+    height: 100%;
+    display: block;
+    margin: 10px auto;
+  }
+  .skill-flex img:last-of-type{
+    padding: 9% 0%;
+  }
+  .skill-bottom{
+    padding: 30px 0;
+  }
+  .skill-bottom p{
+    font-size: 20px;
+  }
+
+  .works h1{
+    font-size:35px;
+  }
+  .works-flex{
+    display: block;
+  }
+  .works-img p{
+    font-size: 20px;
+  }
+  .works-img img {
+    width: 70%;
+  }
+  .works-contents2{
+    padding: 0;
+  }
+  .price h1{
+    font-size: 35px;
+    margin-bottom: 50px;
+  }
+  .price h2{
+    font-size: 25px;
+  }
+  .contact{
+    padding: 50px 0 50px 0;
+  }
+  .contact h1{
+    font-size: 35px;
+    margin: 40px 0;
+  }
+  .contact p{
+    font-size: 20px;
+  }
+  .contact-btn{
+    margin: 50px 0 20px 0;
+  }
+  .contact a{
+    display: block;
+    font-size: 20px;
+    margin: 20px 20px;
+  }
+
+}
